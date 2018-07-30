@@ -12,7 +12,7 @@ import * as PostUtils from 'utils/post_utils';
 import * as Utils from 'utils/utils';
 
 // This must match the max-height defined in CSS for the collapsed content div
-const MAX_POST_HEIGHT = 600;
+const MAX_POST_HEIGHT = 6000;
 
 export default class PostMessageView extends React.PureComponent {
     static propTypes = {
